@@ -209,7 +209,6 @@ img {
     url(../images/bgi.jpg);
   background-position: center;
 }
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -239,12 +238,10 @@ img {
   max-width: 528px;
   height: 100%;
   max-height: 581px;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   background-color: var(--white-color);
-
   transition: transform 250ms var(--timing-function);
 }
 .button-modal {
@@ -254,13 +251,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 6px; */
   width: 30px;
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
+
 /* Hidden title 2-nd section */
 .benefits {
   padding-bottom: 0;
@@ -317,6 +314,7 @@ img {
 
 .img-overlay {
   position: relative;
+  z-index: -1;
 }
 
 .text-overlay {
@@ -536,6 +534,8 @@ img {
   margin-bottom: 34px;
 }
 
+
+
 /* portfolio section */
 .portfolio-title {
   font-size: 18px;
@@ -594,3 +594,4 @@ img {
   opacity: 1;
   transform: translateY(0);
 }
+
