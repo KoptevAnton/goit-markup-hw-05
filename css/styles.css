@@ -217,7 +217,9 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+  visibility: visible;
+  transition: opacity 250ms var(--timing-function),
+  visible 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
