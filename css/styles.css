@@ -219,7 +219,7 @@ img {
   opacity: 1;
   visibility: visible;
   transition: opacity 250ms var(--timing-function),
-  visible 250ms var(--timing-function);
+  visibility 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
